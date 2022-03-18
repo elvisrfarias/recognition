@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 100px auto;
+}
+
+.container-txt {
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+  height: 200px;
+  font: normal 300 16px 'Roboto', sans-serif;
+}
+
+#botao {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 8px rgb(223, 223, 223);
+  background-color: rgb(118, 230, 54);
+  font: normal 700 24px 'Roboto', sans-serif;
+}
